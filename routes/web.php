@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/cornjob', function () {
     return 'corn pickers online';
 });
+
+// This is my first view calling (wish.blade.php file)
+Route::get('/myfirstview', function(){
+    return view('wish'); // wish is the name of my viewfile
+});
