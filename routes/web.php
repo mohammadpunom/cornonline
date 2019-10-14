@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/cornjob', function () {
-    return view('corn pickers online');
+    return 'corn pickers online';
 });
